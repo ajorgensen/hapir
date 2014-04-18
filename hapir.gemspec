@@ -14,6 +14,10 @@ Gem::Specification.new do |s|
   s.files       += Dir.glob('./spec/**/*.rb')
   s.homepage    = 'https://github.com/ajorgensen/hapir'
 
+  s.add_runtime_dependency('rest_client')
+
   s.add_development_dependency('rspec')
   s.add_development_dependency('pry')
+  s.add_development_dependency('bundler')
+  s.add_development_dependency('webmock')
 end

@@ -1,2 +1,1 @@
-module Hapir
-end
+require 'hapir/client'
