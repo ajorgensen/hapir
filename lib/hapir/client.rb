@@ -1,4 +1,5 @@
 require 'restclient'
+require 'hapir/api/contacts'
 
 module Hapir
   class Client
